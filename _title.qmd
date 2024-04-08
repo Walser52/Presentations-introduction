@@ -19,7 +19,7 @@ Sheharyar Pervez
 [(She.HER.yar)]{style="font-size:0.7em"}
 
 
-[She = **She**ll; HER = **Her**;]{style="font-size:0.7em"} \
+[She = **She**ll; har = **Her**;]{style="font-size:0.7em"} \
 [yar = **yar**n]{style="font-size:0.7em"} \
 [But feel free to say it anyway you like.]{style="font-size:0.7em"}
 :::
