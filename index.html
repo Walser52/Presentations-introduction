@@ -769,277 +769,409 @@
 </b>
 <p></p>
 
-</section>
-<section>
-<section id="appendix-a---deconvolution-of-contributions" class="title-slide slide level1 center">
-<h1>Appendix A - Deconvolution of contributions</h1>
+<!-- # Appendix A - Deconvolution of contributions
 
-</section>
-<section id="two-modes-of-energy-storage" class="slide level2 scrollable">
-<h2>Two modes of energy storage</h2>
-<div class="navbar">
-<p><span class="nav-option" data-option="option11" onclick="showContent(this)">The Two Modes</span> <span class="nav-option" data-option="option12" onclick="showContent(this)">CV Responses</span> <span class="nav-option" data-option="option13" onclick="showContent(this)">Flowchart</span> <span class="nav-option" data-option="option14" onclick="showContent(this)">But…</span></p>
-</div>
-<div id="option11Content" class="content scrollable">
-<div class="columns">
-<div class="column" style="width:16%;">
-<div class="ddm" style="text-align: center; font-size:0.63em; line-height:0">
-<div class="ddm-head" onclick="toggleBox(this)" style="text-align: center;font-family:GS_C-B">
-<p>Capacitive</p>
-</div>
-<div class="ddm-box" style="text-align: center; font-family:GS_L">
-<p>No charge transfer</p>
-<p>Helmholtz Double layer</p>
-<p>Electrostatic</p>
-<p>Fast</p>
-<p>Reversible</p>
-<p>Rectangular CV</p>
-<p>Triangular GCD</p>
-</div>
-</div>
-</div><div class="column" style="width:68%;">
-<div id="fig-schema" class="quarto-figure quarto-figure-center">
-<figure>
-<p><img data-src="figs/capdiffclassical.png" style="width:90.0%"></p>
-<figcaption>Figure&nbsp;11: Classical capacitive and diffusive modes of energy storage.</figcaption>
-</figure>
-</div>
-</div><div class="column" style="width:16%;">
-<div class="ddm" style="font-size:0.63em; font-family:Ubuntu Mono; line-height:0; margin-bottom: 0px; margin-top: 0px">
-<div class="ddm-head" onclick="toggleBox(this)" style="border-bottom: 5px solid LightGray;font-family:GS_C-B">
-<p>Diffusive</p>
-</div>
-<div class="ddm-box" style="font-family:GS_L">
-<p>Charge transfer</p>
-<p>Redox reactions</p>
-<p>Diffusion limited</p>
-<p>Slow</p>
-<p>Contains irreversibilities</p>
-<p>Peaks in CV</p>
-<p>Plateaus in GCD</p>
-</div>
-</div>
-</div>
-</div>
-</div>
-<div id="option12Content" class="content scrollable">
-<div class="columns">
-<div class="column" style="width:20%;">
-<div class="quarto-figure quarto-figure-center">
-<figure>
-<p><img data-src="figs/CV.png"></p>
-</figure>
-</div>
-</div><div class="column" style="width:60%;">
-<div class="panel-tabset">
-<ul id="tabset-3" class="panel-tabset-tabby"><li><a data-tabby-default="" href="#tabset-3-1">Schema</a></li><li><a href="#tabset-3-2">Experimental</a></li></ul>
-<div class="tab-content">
-<div id="tabset-3-1">
-<div id="fig-schema" class="quarto-figure quarto-figure-center">
-<figure>
-<p><img data-src="figs/super-batt-pseud-cv-gcd.png"></p>
-<figcaption>Figure&nbsp;12: CV Responses for EDLCs, batteries and pseudocapacitors.</figcaption>
-</figure>
-</div>
-</div>
-<div id="tabset-3-2">
-<div id="fig-schema" class="quarto-figure quarto-figure-center">
-<figure>
-<p><img data-src="figs/CVs.png"></p>
-<figcaption>Figure&nbsp;13: Some experimental CV responses.</figcaption>
-</figure>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-<div id="option13Content" class="content scrollable">
-<div id="fig-schema" class="quarto-figure quarto-figure-center">
-<figure>
-<p><img data-src="figs/flowchart.png" style="width:90.0%"></p>
-<figcaption>Figure&nbsp;14: General scheme of electrochemical contributions.</figcaption>
-</figure>
-</div>
-</div>
-<div id="option14Content" class="content scrollable">
-<p>The picture gets muddled as you introduce nanostructuring. Particle sizes are smaller than diffusion lengths all three effects are potentially occurring at the same time.</p>
-<div class="columns">
-<div class="column">
+## Two modes of energy storage {.scrollable}
+
+
+:::{.navbar}
+
+[The Two Modes]{.nav-option data-option="option11" onclick="showContent(this)"}
+[CV Responses]{.nav-option data-option="option12" onclick="showContent(this)"}
+[Flowchart]{.nav-option data-option="option13" onclick="showContent(this)"}
+[But...]{.nav-option data-option="option14" onclick="showContent(this)"}
+
+:::
+
+:::{#option11Content .content .scrollable}
+
+::::{.columns}
+:::{.column width=16%} 
+
+:::: {.ddm style="text-align: center; font-size:0.63em; line-height:0"}
+:::{.ddm-head onclick="toggleBox(this)" style="text-align: center;font-family:GS_C-B"}
+
+Capacitive
+
+:::
+:::{.ddm-box style="text-align: center; font-family:GS_L"}
+
+No charge transfer
+
+Helmholtz Double layer
+
+Electrostatic
+
+Fast
+
+Reversible
+
+Rectangular CV
+
+Triangular GCD
+
+:::
+::::
+
+:::
+:::{.column width=68%}
+
+![Classical capacitive and diffusive modes of energy storage.](figs/capdiffclassical.png){#fig-schema width=90% fig-align="center"}
+
+:::
+
+
+:::{.column width=16%} 
+
+:::: {.ddm style="font-size:0.63em; font-family:Ubuntu Mono; line-height:0; margin-bottom: 0px; margin-top: 0px"}
+:::{.ddm-head onclick="toggleBox(this)" style="border-bottom: 5px solid LightGray;font-family:GS_C-B"}
+
+Diffusive
+
+:::
+:::{.ddm-box style="font-family:GS_L"}
+
+Charge transfer
+
+Redox reactions
+
+Diffusion limited
+
+Slow
+
+Contains irreversibilities
+
+Peaks in CV
+
+Plateaus in GCD
+
+:::
+::::
+
+
+:::
+
+::::
+
+:::
+:::{#option12Content .content .scrollable}
+
+::::{.columns}
+:::{.column width=20%}
+
+![](figs/CV.png){fig-align="center"}
+
+
+:::
+:::{.column width=60%}
+
+:::{.panel-tabset}
+### Schema
+![CV Responses for EDLCs, batteries and pseudocapacitors.](figs/super-batt-pseud-cv-gcd.png){#fig-schema fig-align="center"}
+
+### Experimental
+![Some experimental CV responses.](figs/CVs.png){#fig-schema fig-align="center"}
+:::
+
+:::
+::::
+
+
+
+
+
+:::
+
+:::{#option13Content .content .scrollable}
+![General scheme of electrochemical contributions.](figs/flowchart.png){#fig-schema width=90% fig-align="center"}
+
+:::
+
+:::{#option14Content .content .scrollable}
+
+The picture gets muddled as you introduce nanostructuring. Particle sizes are smaller than diffusion lengths all three effects are potentially occurring at the same time.
+
+::::{.columns}
+:::{.column}
+
 <blockquote>
-<span style="color:DimGray; font-size:0.65em; line-height: 0"> …increasing numbers of new electrode materials… display electrochemical characteristics that are <span style="color:FireBrick"> neither purely capacitive nor purely Faradaic.</span> [These] new materials [have]… [blurred]… the distinctions between these two fundamentally different energy-storage<br><br>– Yuri Gogotsi (ACS Nano, 2018) </span>
+<span style="color:DimGray; font-size:0.65em; line-height: 0">
+...increasing numbers of new electrode materials... display electrochemical characteristics that are <span style="color:FireBrick"> neither purely capacitive nor purely Faradaic.</span> [These] new materials [have]... [blurred]... the distinctions between these two fundamentally different energy-storage</br></br>-- Yuri Gogotsi (ACS Nano, 2018)
+</span>
 </blockquote>
-</div><div class="column">
+
+:::
+:::{.column}
+
 <blockquote>
-<span style="color:DimGray; font-size:0.65em; line-height: 0"> Increasingly, the <span style="color:FireBrick">distinction…is blurred,</span> particularly with the use of nanostructured materials whose particle sizes are much smaller than the diffusion length or carbons with redox-active functional groups. <br><br><br>- Fleischmann (Chemical Reviews, 2020) </span>
+<span style="color:DimGray; font-size:0.65em; line-height: 0">
+Increasingly, the  <span style="color:FireBrick">distinction...is blurred,</span> particularly with the use of
+nanostructured materials whose particle sizes are much smaller
+than the diffusion length or carbons with redox-active functional
+groups. </br></br></br>- Fleischmann (Chemical Reviews, 2020)
+</span>
 </blockquote>
-</div>
-</div>
-</div>
-</section>
-<section id="section-2" class="slide level2 scrollable">
-<h2></h2>
-<div class="navbar">
-<p><span class="nav-option" data-option="option21" onclick="showContent(this)">Model</span> <span class="nav-option" data-option="option22" onclick="showContent(this)">Why it fails</span> <span class="nav-option" data-option="option23" onclick="showContent(this)">Valid Assumptions?</span> <span class="nav-option" data-option="option24" onclick="showContent(this)">Extension</span> <span class="nav-option" data-option="option25" onclick="showContent(this)">Results</span> <span class="nav-option" data-option="option26" onclick="showContent(this)">Error Reduction</span> <span class="nav-option" data-option="option27" onclick="showContent(this)">Supplementary</span></p>
-</div>
-<div id="option21Content" class="content">
-<p>The standard approach to deconvolution is via the <span class="math inline">\(\nu-\nu^{1/2}\)</span> model carried out on a cyclic voltammetry experiment using a planar electrode assuming semi-infinite planar diffusion.</p>
-<p>The model encodes the current response as a function of the scan rate and the electrode potential.</p>
-<p><span id="eq-linearmodel1"><span class="math display">\[
+
+
+:::
+::::
+
+
+
+
+:::
+
+
+
+
+
+
+
+
+
+
+
+## {.scrollable}
+:::{.navbar}
+
+[Model]{.nav-option data-option="option21" onclick="showContent(this)"}
+[Why it fails]{.nav-option data-option="option22" onclick="showContent(this)"}
+[Valid Assumptions?]{.nav-option data-option="option23" onclick="showContent(this)"}
+[Extension]{.nav-option data-option="option24" onclick="showContent(this)"}
+[Results]{.nav-option data-option="option25" onclick="showContent(this)"}
+[Error Reduction]{.nav-option data-option="option26" onclick="showContent(this)"}
+[Supplementary]{.nav-option data-option="option27" onclick="showContent(this)"}
+
+:::
+
+
+:::{#option21Content .content}
+
+The standard approach to deconvolution is via the $\nu-\nu^{1/2}$ model carried out on a cyclic voltammetry experiment using a planar electrode assuming semi-infinite planar diffusion. 
+
+The model encodes the current response as a function of the scan rate and the electrode potential.
+
+$$
 I(\nu, V) = \overbrace{k_1 \nu}^{Cap+Pseudo} + \overbrace{k_2\nu^{1/2}}^{Diffusive} +\epsilon
-\qquad(1)\]</span></span></p>
-<p>This can then be linearized:</p>
-<p><span id="eq-linearmodel2"><span class="math display">\[
+$${#eq-linearmodel1}
+
+This can then be linearized:
+
+$$
 \frac{I(\nu, V)}{\nu^{1/2}} = k_1 \nu^{1/2} + k_2 +\epsilon
-\qquad(2)\]</span></span></p>
-<p>But how good does it fit the experimental data?</p>
-</div>
-<div id="option22Content" class="content">
-<div class="columns">
-<div class="column">
-<div class="smaller">
-<p>Attention must be paid to the underlying assumptions before applying the model.</p>
+$${#eq-linearmodel2}
+
+But how good does it fit the experimental data?
+
+:::
+
+:::{#option22Content .content}
+
+::::{.columns}
+:::{.column}
+
+:::{.smaller}
+Attention must be paid to the underlying assumptions before applying the model. 
+
 <blockquote>
-<p>Battery models commonly make <span style="color:FireBrick">assumptions known to be false,</span> such as describing phase separating materials with Fickian diffusion.</p>
-–<a href="https://dspace.mit.edu/handle/1721.1/111406">RB Smith</a>
+Battery models commonly make  <span style="color:FireBrick">assumptions known to be false,</span> such as describing phase separating materials with Fickian diffusion. 
+
+--[RB Smith](https://dspace.mit.edu/handle/1721.1/111406)
 </blockquote>
-</div>
-</div><div class="column">
-<p><img data-src="figs/quad/LinearityMOF.png"></p>
-</div>
-</div>
-</div>
-<div id="option23Content" class="content">
-<div class="columns">
-<div class="column">
-<div class="ddm" style="text-align:center">
-<div class="ddm-head" onclick="toggleBox(this)">
-<p>Non-linearities</p>
-</div>
-<div class="ddm-box">
-<div id="fig-nonlinearity" class="quarto-figure quarto-figure-center">
-<figure>
-<p><img data-src="figs/quad/nonlinearity.png" style="width:40.0%"></p>
-<figcaption>Figure&nbsp;15: Non-linear relationship between the model variables for different materials.</figcaption>
-</figure>
-</div>
-</div>
-</div>
-</div><div class="column">
-<div class="ddm" style="text-align:center">
-<div class="ddm-head" onclick="toggleBox(this)">
-<p>Noise is not random</p>
-</div>
-<div class="ddm-box">
-<div id="fig-nonlinearity" class="quarto-figure quarto-figure-center">
-<figure>
-<p><img data-src="figs/quad/residualcurrent.png" style="width:40.0%"></p>
-<figcaption>Figure&nbsp;16: Residual current shows that the noise has a definite structure.</figcaption>
-</figure>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-<div id="option24Content" class="content">
-<p>For <a href="https://onlinelibrary.wiley.com/doi/full/10.1002/smll.202305059">reasons</a> rooted in electrochemistry, we extend the model in the following way:</p>
-<p><span id="eq-quadraticmodel1"><span class="math display">\[
+
+:::
+
+:::
+:::{.column}
+
+![](figs/quad/LinearityMOF.png)
+
+:::
+::::
+
+
+
+
+:::
+
+:::{#option23Content .content}
+
+
+::::{.columns}
+:::{.column}
+
+::::{.ddm style="text-align:center"} 
+:::{.ddm-head onclick="toggleBox(this)"}
+
+Non-linearities
+:::
+:::{.ddm-box}
+
+![Non-linear relationship between the model variables for different materials.](figs/quad/nonlinearity.png){#fig-nonlinearity width=40%}
+
+:::
+::::
+
+:::
+:::{.column}
+
+::::{.ddm style="text-align:center"}
+:::{.ddm-head onclick="toggleBox(this)"}
+
+Noise is not random
+:::
+:::{.ddm-box}
+
+![Residual current shows that the noise has a definite structure.](figs/quad/residualcurrent.png){#fig-nonlinearity width=40%}
+
+:::
+::::
+
+:::
+::::
+
+
+:::
+
+:::{#option24Content .content}
+
+For [reasons](https://onlinelibrary.wiley.com/doi/full/10.1002/smll.202305059) rooted in electrochemistry, we extend the model in the following way:
+
+$$
 I(\nu, V) =  \overbrace{\beta_1 \nu}^{Cap+Pseudo} + \overbrace{\beta_2\nu^{1/2} + \beta_3 \nu^{3/2}}^{Diffusive} + \epsilon
-\qquad(3)\]</span></span></p>
-<p>Dividing by <span class="math inline">\(\nu^{1/2}\)</span> gives us a model that is quadratic in <span class="math inline">\(\nu^{1/2}\)</span>:</p>
-<p><span id="eq-quadraticmodel2"><span class="math display">\[
+$${#eq-quadraticmodel1}
+
+Dividing by $\nu^{1/2}$ gives us a model that is quadratic in $\nu^{1/2}$:
+
+$$
 \frac{I(\nu, V)}{\nu^{1/2}} =  \beta_1 \nu^{1/2} + \beta_2 + \beta_3 \nu + \epsilon
-\qquad(4)\]</span></span></p>
-<p>And it is this model that we will test.</p>
-<div class="ddm">
-<div class="dd-head" onclick="toggleBox(this)">
-<p>Derivation</p>
-</div>
-<div class="dd-box" style="font-size:0.75em">
-<p>To rectify this situation we turn to the classic papers by <a href="https://pubs.acs.org/doi/pdf/10.1021/ac60191a030">(Reinmuth, 1962)</a>, and <a href="https://pubs.acs.org/doi/10.1021/ac60210a007">(Nicholson and Shain, 1964)</a> and we see that for a semi-infinite linear diffusion reaction of the form <span class="math inline">\(O + ne \rightleftharpoons R\)</span> with only O present initially, the diffusion limited current, <span class="math inline">\(i_D\)</span> , has the general form:</p>
-<p><span id="eq-idiffusion"><span class="math display">\[
+$${#eq-quadraticmodel2}
+
+And it is this model that we will test.
+
+
+::::{.ddm }
+:::{.dd-head onclick="toggleBox(this)"}
+
+Derivation
+
+:::
+:::{.dd-box style="font-size:0.75em"}
+
+To rectify this situation we turn to the classic papers by [(Reinmuth, 1962)](https://pubs.acs.org/doi/pdf/10.1021/ac60191a030), and [(Nicholson and Shain, 1964)](https://pubs.acs.org/doi/10.1021/ac60210a007) and we see that for a semi-infinite linear diffusion reaction of the form $O + ne \rightleftharpoons R$ with only O present initially, the diffusion limited current, $i_D$ , has the general form:
+
+$$
     i_D = \Lambda \sigma^{1/2} \chi(\sigma t)
-\qquad(5)\]</span></span></p>
-<p>where <span class="math inline">\(\Lambda\)</span> and <span class="math inline">\(\sigma\)</span> are:</p>
-<p><span class="math display">\[\begin{align}
-    \Lambda &amp;= nFAC_O^*(\pi D_O)^{1/2}\\
-    \sigma &amp;= \frac{nF\nu }{RT}
-\end{align}\]</span></p>
-<p>The normalized current <span class="math inline">\(\chi\)</span> can be given the series expansion:</p>
-<p><span class="math display">\[\begin{align}
-    \chi(\sigma t) &amp;= \sum_{j=1}^{\infty} c_j exp{\Biggl[- \frac{jnF}{RT}(E-E_0) \Biggl]}\\
-    &amp;= \sum_{j=1}^{\infty} c_j exp{\Biggl[- \frac{jnF}{RT}E + \frac{jnF}{RT}E_0 \Biggl]}\\
-    &amp;= \sum_{j=1}^{\infty} c_j exp{\Biggl[-\frac{jnF}{RT}(E_i - \nu t) + \frac{jnF}{RT}E_0\Biggl]}\\
-    &amp;= \sum_{j=1}^{\infty} c_j exp{\Biggl[-\frac{jnF}{RT}(E_i - E_0) \Biggl] exp [j\sigma t]}\\
-    &amp;= \sum_{j=1}^{\infty} d_j exp[j \sigma t]\\
-    &amp;= \sum_{j=1}^{\infty} d_j \sum_{n=0}^{\infty} \frac{(j\sigma)^n}{n!}
+$${#eq-idiffusion}
+
+where $\Lambda$ and $\sigma$ are:
+
+\begin{align}
+    \Lambda &= nFAC_O^*(\pi D_O)^{1/2}\\
+    \sigma &= \frac{nF\nu }{RT} 
+\end{align} 
+
+The normalized current $\chi$ can be given the series expansion:
+
+\begin{align}
+    \chi(\sigma t) &= \sum_{j=1}^{\infty} c_j exp{\Biggl[- \frac{jnF}{RT}(E-E_0) \Biggl]}\\
+    &= \sum_{j=1}^{\infty} c_j exp{\Biggl[- \frac{jnF}{RT}E + \frac{jnF}{RT}E_0 \Biggl]}\\
+    &= \sum_{j=1}^{\infty} c_j exp{\Biggl[-\frac{jnF}{RT}(E_i - \nu t) + \frac{jnF}{RT}E_0\Biggl]}\\
+    &= \sum_{j=1}^{\infty} c_j exp{\Biggl[-\frac{jnF}{RT}(E_i - E_0) \Biggl] exp [j\sigma t]}\\
+    &= \sum_{j=1}^{\infty} d_j exp[j \sigma t]\\
+    &= \sum_{j=1}^{\infty} d_j \sum_{n=0}^{\infty} \frac{(j\sigma)^n}{n!}
     \label{eq-normcurrent}
-\end{align}\]</span></p>
-<p>Where the <span class="math inline">\(c_j\)</span> and <span class="math inline">\(d_j\)</span> are expansion coefficients.</p>
-<p>Therefore substituting the series expansion for the normalize current into <a href="#/section-2">Equation&nbsp;5</a>, we see that the diffusion limited current is a function of (2n+1)/2 powers of <span class="math inline">\(\nu\)</span> where <span class="math inline">\(n \in \mathbb{N}\)</span>, the set of natural numbers. And the net diffusive current is then: : <span id="eq-idiffusion2"><span class="math display">\[
+\end{align} 
+
+Where the $c_j$ and $d_j$  are expansion coefficients.
+
+Therefore substituting the series expansion for the normalize current into @eq-idiffusion, we see that the diffusion limited current is a function of (2n+1)/2 powers of $\nu$ where $n \in \mathbb{N}$, the set of natural numbers. And the net diffusive current is then:
+:
+$$
 i_D = \Lambda \sum_{j=1}^{\infty} d_j \sum_{n=0}^{\infty} \frac{j^n \sigma^{n+1/2}}{n!}
-\qquad(6)\]</span></span></p>
-<p>We can now extend the model by adding a diffusive correction from the next order term and thereby get a model that is quadratic in : <span id="eq-quadmodel2"><span class="math display">\[
+$${#eq-idiffusion2}
+
+
+We can now extend the model by adding a diffusive correction from the next order term and thereby get a model that is quadratic in :
+$$
 I(\nu, V) =  \overbrace{\beta_1 \nu}^{Cap+Pseudo} + \overbrace{\beta_2\nu^{1/2} + \beta_3 \nu^{3/2}}^{Diffusive} + \epsilon
-\qquad(7)\]</span></span></p>
-<p><span id="eq-quadmodel"><span class="math display">\[
+$${#eq-quadmodel2}
+
+$$
 \frac{I(\nu, V)}{\nu^{1/2}} =  {\beta_1 \nu^{1/2}}+ \beta_2 + \beta_3 \nu + \epsilon
-\qquad(8)\]</span></span></p>
-<p>where <span class="math inline">\(\beta_i\)</span> are the regression parameters; <span class="math inline">\(I\)</span>, <span class="math inline">\(V\)</span>, and <span class="math inline">\(\nu\)</span> have their usual meanings and <span class="math inline">\(\epsilon\)</span> again is the noise term. Parameters <span class="math inline">\(\beta_2\)</span> and <span class="math inline">\(\beta_3\)</span> correspond to the diffusion limited Faradaic current but the first parameter, <span class="math inline">\(\beta_1\)</span> would encompass the contribution from the Double Layer (DL) as well as the Faradaic, though non-diffusion limited contribution from pseudocapacitive effects.</p>
-</div>
-</div>
-</div>
-<div id="option25Content" class="content">
-<div class="r-stack">
-<p><img data-src="figs/quad/fittedlin.png" width="600"></p>
-<p><img data-src="figs/quad/fittedboth.png" class="fragment" width="600"></p>
-</div>
-</div>
-<div id="option26Content" class="content">
-<div class="quarto-layout-panel">
-<div class="quarto-layout-row quarto-layout-valign-top">
-<div class="quarto-layout-cell" style="flex-basis: 33.3%;justify-content: center;">
-<div id="fig-rmse" class="quarto-figure quarto-figure-center">
-<figure>
-<p><img data-src="figs/quad/rmse.png" width="400"></p>
-<figcaption>Figure&nbsp;17: Root mean square error improvement</figcaption>
-</figure>
-</div>
-</div>
-<div class="quarto-layout-cell" style="flex-basis: 66.7%;justify-content: center;">
-<div id="fig-boxplots" class="quarto-figure quarto-figure-center">
-<figure>
-<p><img data-src="figs/quad/boxarrow.png" width="800"></p>
-<figcaption>Figure&nbsp;18: Boxplots indicate that the predictions of the two models are at times totally at odds.</figcaption>
-</figure>
-</div>
-</div>
-</div>
-</div>
-</div>
-<div id="option27Content" class="content">
-<div class="ddm">
-<div class="ddm-head" onclick="toggleBox(this)" style="border-bottom: 3px solid Coral;">
-<p>Fitting for the complete set</p>
-</div>
-<div class="ddm-box">
-<p><img data-src="figs/quad/FigS2.png"></p>
-</div>
-</div>
-<div class="ddm">
-<div class="ddm-head" onclick="toggleBox(this)" style="border-bottom: 3px solid Coral;">
-<p>Box plots for the complete set</p>
-</div>
-<div class="ddm-box">
-<p><img data-src="figs/quad/FigS3.png"></p>
-</div>
-</div>
-</div>
-</section></section>
-<section id="appendix-b---mofs." class="title-slide slide level1 center">
-<h1>Appendix B - MOFs.</h1>
+$${#eq-quadmodel}
+
+where $\beta_i$ are the regression parameters; $I$, $V$, and $\nu$ have their usual meanings and $\epsilon$ again is the noise term. Parameters $\beta_2$ and $\beta_3$ correspond to the diffusion limited Faradaic current but the first parameter, $\beta_1$ would encompass the contribution from the Double Layer (DL) as well as the Faradaic, though non-diffusion limited contribution from pseudocapacitive effects.
+
+:::
+::::
+
+
+:::
+
+
+:::{#option25Content .content}
+::: {.r-stack}
+![](figs/quad/fittedlin.png){width=600}
+
+![](figs/quad/fittedboth.png){.fragment width=600}
+
+:::
+:::
+
+:::{#option26Content .content}
+
+
+
+::: {layout-ncol=2}
+
+![Root mean square error improvement](figs/quad/rmse.png){#fig-rmse width=400}
+
+![Boxplots indicate that the predictions of the two models are at times totally at odds.](figs/quad/boxarrow.png){#fig-boxplots width=800}
+
+:::
+
+
+
+:::
+
+:::{#option27Content .content}
+
+::::{.ddm}
+:::{.ddm-head onclick="toggleBox(this)" style="border-bottom: 3px solid Coral;"}
+
+Fitting for the complete set
+
+:::
+:::{.ddm-box}
+
+![](figs/quad/FigS2.png)
+
+:::
+::::
+
+
+::::{.ddm}
+:::{.ddm-head onclick="toggleBox(this)" style="border-bottom: 3px solid Coral;"}
+
+Box plots for the complete set
+
+:::
+:::{.ddm-box}
+
+![](figs/quad/FigS3.png)
+
+:::
+::::
+
+
+
+:::
+
+
+
+
+# Appendix B - MOFs. -->
 
 <img src="figs/treelogo.png" class="slide-logo r-stretch"><div class="footer footer-default">
 

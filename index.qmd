@@ -53,7 +53,7 @@ editor: source
 {{< include _theend.qmd >}}
 
 
-# Appendix A - Deconvolution of contributions
+<!-- # Appendix A - Deconvolution of contributions
 
 ## Two modes of energy storage {.scrollable}
 {{< include _modesenergystorage.qmd >}}
@@ -62,4 +62,4 @@ editor: source
 {{< include _nunuhalfmodel.qmd >}}
 
 
-# Appendix B - MOFs.
+# Appendix B - MOFs. -->
