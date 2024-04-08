@@ -48,7 +48,7 @@ Personal life
 
 :::
 :::{.column width=50%}
-![Family: (L to R) Me, Ada, Huma, Hannah. (Top Right) Hannah, (Bottom Right) Ada](figs/family/Family.jpg)
+<!-- ![Family: (L to R) Me, Ada, Huma, Hannah. (Top Right) Hannah, (Bottom Right) Ada](figs/family/Family.jpg) -->
 :::
 ::::
 
