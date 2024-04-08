@@ -1,0 +1,79 @@
+
+::::{.columns}
+:::{.column}
+<!--  -->
+::::{.ddm}
+:::{.ddm-head onclick="toggleBox(this)" style="text-align:left"}
+**Regarding the post**
+
+:::
+:::{.ddm-box}
+- How flexible/rigid is the starting date? 
+- How long will the post last? Any possibility of extension?
+- Rigidity of working hours? Work from home or office?
+- Salary level (E13). Constant or subject to increments?
+:::
+::::
+
+<!--  -->
+::::{.ddm}
+:::{.ddm-head onclick="toggleBox(this)" style="text-align:left"}
+**Life in Bayreuth**
+
+:::
+:::{.ddm-box}
+- Cost of living?
+    - Rent and availability of accommodation
+    - Daily commute?
+
+:::
+::::
+
+<!--  -->
+::::{.ddm}
+:::{.ddm-head onclick="toggleBox(this)" style="text-align:left"}
+**Work itself**
+
+:::
+:::{.ddm-box}
+- Experimental/Theoretical/Modeling or a mixture
+- Current projects.
+- Your expectations?
+:::
+::::
+
+
+
+
+:::
+:::{.column}
+
+::::{.ddm}
+:::{.ddm-head onclick="toggleBox(this)" style="text-align:left"}
+**About the group**
+:::
+:::{.ddm-box}
+- Funds for research and computational resources?
+- Number of people in the group (post-docs, grad students, undergrads, and technical staff)?
+- Working style of the group?
+    - Working hours per week?
+    - Frequency of meetings? One-on-one vs. group?
+    - How would you describe your management style? Hands-off vs. Hands-on?
+:::
+::::
+
+
+::::{.ddm}
+:::{.ddm-head onclick="toggleBox(this)" style="text-align:left"}
+**Group alumni**
+:::
+:::{.ddm-box}
+- Placement history: Industry vs. Academia?
+- The contact of anyone?
+
+:::
+::::
+
+
+:::
+::::

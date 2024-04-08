@@ -1,0 +1,84 @@
+
+
+::::{.ddm}
+:::{.dd-head onclick="toggleBox(this)"}
+
+Academic and Professional
+:::
+:::{.dd-box}
+
+::::{.columns}
+:::{.column}
+- Started with electronics.
+- Switched to physics for Masters at Indiana University.
+- Ended with some mixture of electrochemistry, materials science, and machine learning.
+
+Work at GIK Institute. 
+Small university next to Tarbela lake. 
+100 km from the capital, Islamabad.
+
+
+:::
+:::{.column}
+![GIK Insitute. GIK being the initials of Ghulam Ishaq Khan, former president of Pakistan.](figs/family/giki.jpg)
+:::
+::::
+
+
+
+:::
+::::
+
+
+::::{.ddm}
+:::{.dd-head onclick="toggleBox(this)"}
+
+Personal life
+:::
+:::{.dd-box}
+
+
+::::{.columns}
+:::{.column width=50%}
+- Avid reader of just about anything (history, science, philosophy, sociology, theology, literature, criticism...). 
+- Cinephile and classical music lover. 
+- In my free time I write poems and drink coffee <sup>1</sup>
+
+[<sup>1</sup> Daughters permitting]{style="color:gray; font-size:0.8em"}
+
+:::
+:::{.column width=50%}
+![Family: (L to R) Me, Ada, Huma, Hannah. (Top Right) Hannah, (Bottom Right) Ada](figs/family/Family.jpg)
+:::
+::::
+
+
+
+
+:::
+::::
+
+
+::::{.ddm}
+:::{.dd-head onclick="toggleBox(this)"}
+
+Future Plans
+:::
+:::{.dd-box}
+
+My interests in broad overlapping groups. These are the domains I'd like to expand in:
+
+1. Physical systems \
+[Condensed matter, non-equilbrium thermodynamics, electrochemical]{style="color:gray"}
+1. Energy and Environment \
+[Materials, policy]{style="color:gray"}
+1. Computer simulations \
+[ab initio, python/R]{style="color:gray"}
+1. Modeling approaches \
+[Mathematical, Stochastic, Bayesian, ML]{style="color:gray"}
+
+Principally the aim is to employ 3 and 4 to gain insights in 1 and 2.
+
+:::
+::::
+
